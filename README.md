@@ -31,7 +31,7 @@ if these work then you are good to go!
 >>> from libmf import mf
 >>> engine = mf.MF()
 >>> engine.fit(data)
->>> engine.dict(ind)
+>>> engine.predict(ind)
 ```
 `data` is a sparse numpy array consisting of data matrix indices x and y and a corresponding value. So each row is: (x,y,v).
 `data.shape => (x, 3)` where x is the number of observations
